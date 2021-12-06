@@ -5,7 +5,7 @@ object pincodeValidation
   def main(args: Array[String]):Unit=
   {
     val input = readLine("Enter value: ")
-    val pattern = new Regex("^[0-9]{1,6}$")
+    val pattern = new Regex("^[0-9]{1}[0-9]{1,6}$")
     if (pattern.matches(input)){
         print("valid pattern")   
     }
