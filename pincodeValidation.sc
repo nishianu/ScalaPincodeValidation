@@ -10,7 +10,7 @@ object pincodeValidation
         print("valid pattern")   
     }
     else{
-        print("not valid pattern")
+        print("not a valid pattern")
     }
   }
 }
